@@ -20,23 +20,6 @@ h1 {
   margin: 0;
 }
 
-#foodTable {
-  border-collapse: collapse;
-  text-align: center;
-  margin: auto;
-}
-
-#foodTable thead {
-  background-color: #641764;
-  color: #fff;
-}
-
-#foodTable th,
-#foodTable td {
-  border: 1px solid black;
-  padding: 8px;
-}
-
 ul {
   color: #ca54ee;
   margin: 0;
