@@ -1,120 +1,118 @@
 body {
-    font-family: Arial, sans-serif; 
-    background-color: #ddb4e9;
-   
-  }
+  font-family: Arial, sans-serif;
+  background-color: #ddb4e9;
+
+}
 
 
 header {
-    background-color: #ca54ee;
-    padding: 40px;
-    text-align: center;
-    margin-bottom: 40px;
+  background-color: #ca54ee;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 h1 {
-    color: rgb(4, 4, 85);
-    font-family:fantasy;
-    font-size:1in;
-    display: inline-block;
-    margin: 0;
-  }
+  color: rgb(4, 4, 85);
+  font-family: fantasy;
+  font-size: 1in;
+  display: inline-block;
+  margin: 0;
+}
 
-  table {
-   
-    width: 25%;
-    margin: auto;
-  }
-  
-  tr, th {
-    display: inline-block;
-    border: 1px solid black;
-    background-color: #f2f2f2;
-    font-weight: bold;
-    text-align: center;
-    padding: 5px;
-  }  
+#foodTable {
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
 
-  ul {
-    color: #ca54ee;
-    margin: 0;
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    font-weight: bold;
+#foodTable thead {
+  background-color: #641764;
+  color: #fff;
+}
+
+#foodTable th,
+#foodTable td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+ul {
+  color: #ca54ee;
+  margin: 0;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  font-weight: bold;
 }
 
 li {
-      padding: 3px;
-    display: inline-block;
-    margin-right: 10px;
-  }
+  padding: 3px;
+  display: inline-block;
+  margin-right: 10px;
+}
 
-  form {
-    text-align: left;
-  }
+form {
+  text-align: left;
+}
 
-  input {
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 95%;
-    margin-bottom: 20px;
-  }
+input {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 95%;
+  margin-bottom: 20px;
+}
 
-  select {
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 95%;
-    margin-bottom: 20px;
-  }
+select {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 95%;
+  margin-bottom: 20px;
+}
 
-  input[type="submit"] {
-    background-color: #333;
-    color: white;
-    padding: 10px ;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-  }
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
 
-  fieldset {
-    margin: 20px;
-    margin-left: 35%;
-    margin-right: 35%;
-    border: 1px solid #333;
-    padding: 10px;
-  }
+fieldset {
+  margin: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  border: 1px solid #333;
+  padding: 10px;
+}
 
-  legend {
-    font-weight: bold;
-    font-size: larger;
-    margin: auto;
-    margin-top: 100px;
-  }
+legend {
+  font-weight: bold;
+  font-size: larger;
+  margin: auto;
+  margin-top: 100px;
+}
 
-  footer {
-    background-color: #ca54ee;
-    color: rgb(4, 4, 85);
-    padding: 20px;
-    text-align: center;
-   
-    
-    left: 0;
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  footer a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
-  }
+footer {
+  background-color: #ca54ee;
+  color: rgb(4, 4, 85);
+  padding: 20px;
+  text-align: center;
 
-    
 
-  
+  left: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
